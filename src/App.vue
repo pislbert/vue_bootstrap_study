@@ -1,0 +1,43 @@
+<template>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+	<!-- 标准的按钮 -->
+	<button type="button" class="btn btn-default">默认按钮</button>
+	<!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
+	<button type="button" class="btn btn-primary">原始按钮</button>
+	<!-- 表示一个成功的或积极的动作 -->
+	<button type="button" class="btn btn-success">成功按钮</button>
+	<!-- 信息警告消息的上下文按钮 -->
+	<button type="button" class="btn btn-info">信息按钮</button>
+	<!-- 表示应谨慎采取的动作 -->
+	<button type="button" class="btn btn-warning">警告按钮</button>
+	<!-- 表示一个危险的或潜在的负面动作 -->
+	<button type="button" class="btn btn-danger">危险按钮</button>
+	<!-- 并不强调是一个按钮，看起来像一个链接，但同时保持按钮的行为 -->
+	<button type="button" class="btn btn-link">链接按钮</button>
+  </div>
+</template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  name: 'app',
+  components: {
+    HelloWorld
+  }
+}
+</script>
+
+<style>
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
